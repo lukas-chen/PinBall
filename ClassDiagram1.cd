@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PinBall.Ball">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAIAAAAAAAAAAgAAAAAAAAABAA=</HashCode>
+      <FileName>Ball.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PinBall.Bat" Collapsed="true">
+    <Position X="3.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAA=</HashCode>
+      <FileName>Bat.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PinBall.Brick" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <AssociationLine Name="Status" Type="PinBall.BrickStatus">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.873" Y="0.433" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAgAAAAAAAAAAAAAgBAAAAAAAAAAA=</HashCode>
+      <FileName>Brick.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PinBall.IHittable" Collapsed="true">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>IHittable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PinBall.IHitter" Collapsed="true">
+    <Position X="3.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHitter.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PinBall.IMovable" Collapsed="true">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="PinBall.BrickStatus">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAACACAAAAAA=</HashCode>
+      <FileName>BrickStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>

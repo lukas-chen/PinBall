@@ -1,0 +1,17 @@
+C:\Demos\20170426\PinBall\bin\Debug\PinBall.exe.config
+C:\Demos\20170426\PinBall\bin\Debug\PinBall.exe
+C:\Demos\20170426\PinBall\bin\Debug\PinBall.pdb
+C:\Demos\20170426\PinBall\obj\Debug\PinBall.Form1.resources
+C:\Demos\20170426\PinBall\obj\Debug\PinBall.Properties.Resources.resources
+C:\Demos\20170426\PinBall\obj\Debug\PinBall.csproj.GenerateResource.Cache
+C:\Demos\20170426\PinBall\obj\Debug\PinBall.exe
+C:\Demos\20170426\PinBall\obj\Debug\PinBall.pdb
+C:\Users\GJUN\Desktop\PinBall\bin\Debug\PinBall.exe.config
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.exe
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.pdb
+C:\Users\GJUN\Desktop\PinBall\bin\Debug\PinBall.exe
+C:\Users\GJUN\Desktop\PinBall\bin\Debug\PinBall.pdb
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.csprojResolveAssemblyReference.cache
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.Form1.resources
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.Properties.Resources.resources
+C:\Users\GJUN\Desktop\PinBall\obj\Debug\PinBall.csproj.GenerateResource.Cache
