@@ -10,6 +10,18 @@ namespace PinBall
 {
     class Bat : Button, IHittable, IMovable
     {
+        protected override void OnMouseMove(MouseEventArgs mevent)
+        {
+            base.OnMouseMove(mevent);
+
+            if (mevent.Button == MouseButtons.Left)
+            {
+                this.Left += mevent.X - this.Width / 2;
+                this.Top += mevent.Y - this.Height / 2;
+            }
+        }
+
+
         public bool HitBy(IHitter hitter)
         {
             Control c = (Control)hitter;

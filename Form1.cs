@@ -28,5 +28,26 @@ namespace PinBall
                 }
             }
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            switch (e.KeyCode)
+            {
+                case Keys.X:
+                    //if(bat1.Left <= this.ClientRectangle)
+                    bat1.Left += 10;
+                    break;
+                case Keys.Z:
+                    bat1.Left -= 10;
+                    break;
+                case Keys.Space:
+                    Bullet bullet = new Bullet();
+                    bullet.Text = "||";
+                    bullet.Top = bat1.Top - bat1.Height;
+                    bullet.Left = bat1.Left + bat1.Width / 2 - 5;
+                    this.Controls.Add(bullet);
+                    break;
+            }
+        }
     }
 }

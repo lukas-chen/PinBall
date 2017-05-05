@@ -1015,8 +1015,8 @@
 <XPD:REF name="Head">pgI1CpMRqUyPUPUmpohpRQAA</XPD:REF>
 <XPD:REF name="Tail">vBKq3KO8Pkiy8Ywhc2fTxwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="tEtYs3kNz0a+9nv94zFT/AAA">
-<XPD:ATTR name="Alpha" type="real">1.71723473265372</XPD:ATTR>
-<XPD:ATTR name="Distance" type="real">13.1529464379659</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">4.7886345193347</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">121.412519947491</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">撞到另外一個磚塊或是撞到天花板</XPD:ATTR>
 <XPD:REF name="Model">Xl8tlWsJnU2KHomOupX4ZAAA</XPD:REF>
 </XPD:OBJ>

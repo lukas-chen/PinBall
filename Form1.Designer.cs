@@ -77,7 +77,7 @@
             // 
             this.ball1.AutoSize = true;
             this.ball1.Checked = true;
-            this.ball1.Location = new System.Drawing.Point(201, 447);
+            this.ball1.Location = new System.Drawing.Point(41, 420);
             this.ball1.Name = "ball1";
             this.ball1.Size = new System.Drawing.Size(14, 13);
             this.ball1.TabIndex = 25;
@@ -89,6 +89,7 @@
             this.brick21.Location = new System.Drawing.Point(319, 120);
             this.brick21.Name = "brick21";
             this.brick21.Size = new System.Drawing.Size(75, 23);
+            this.brick21.Status = PinBall.BrickStatus.Normal;
             this.brick21.TabIndex = 24;
             this.brick21.UseVisualStyleBackColor = true;
             // 
@@ -97,6 +98,7 @@
             this.brick22.Location = new System.Drawing.Point(240, 120);
             this.brick22.Name = "brick22";
             this.brick22.Size = new System.Drawing.Size(75, 23);
+            this.brick22.Status = PinBall.BrickStatus.Normal;
             this.brick22.TabIndex = 23;
             this.brick22.UseVisualStyleBackColor = true;
             // 
@@ -105,6 +107,7 @@
             this.brick23.Location = new System.Drawing.Point(161, 120);
             this.brick23.Name = "brick23";
             this.brick23.Size = new System.Drawing.Size(75, 23);
+            this.brick23.Status = PinBall.BrickStatus.Normal;
             this.brick23.TabIndex = 22;
             this.brick23.UseVisualStyleBackColor = true;
             // 
@@ -113,6 +116,7 @@
             this.brick24.Location = new System.Drawing.Point(82, 120);
             this.brick24.Name = "brick24";
             this.brick24.Size = new System.Drawing.Size(75, 23);
+            this.brick24.Status = PinBall.BrickStatus.Normal;
             this.brick24.TabIndex = 21;
             this.brick24.UseVisualStyleBackColor = true;
             // 
@@ -121,6 +125,7 @@
             this.brick25.Location = new System.Drawing.Point(3, 120);
             this.brick25.Name = "brick25";
             this.brick25.Size = new System.Drawing.Size(75, 23);
+            this.brick25.Status = PinBall.BrickStatus.Falling;
             this.brick25.TabIndex = 20;
             this.brick25.UseVisualStyleBackColor = true;
             // 
@@ -129,6 +134,7 @@
             this.brick16.Location = new System.Drawing.Point(319, 91);
             this.brick16.Name = "brick16";
             this.brick16.Size = new System.Drawing.Size(75, 23);
+            this.brick16.Status = PinBall.BrickStatus.Normal;
             this.brick16.TabIndex = 19;
             this.brick16.UseVisualStyleBackColor = true;
             // 
@@ -137,6 +143,7 @@
             this.brick17.Location = new System.Drawing.Point(240, 91);
             this.brick17.Name = "brick17";
             this.brick17.Size = new System.Drawing.Size(75, 23);
+            this.brick17.Status = PinBall.BrickStatus.Normal;
             this.brick17.TabIndex = 18;
             this.brick17.UseVisualStyleBackColor = true;
             // 
@@ -145,6 +152,7 @@
             this.brick18.Location = new System.Drawing.Point(161, 91);
             this.brick18.Name = "brick18";
             this.brick18.Size = new System.Drawing.Size(75, 23);
+            this.brick18.Status = PinBall.BrickStatus.Normal;
             this.brick18.TabIndex = 17;
             this.brick18.UseVisualStyleBackColor = true;
             // 
@@ -153,6 +161,7 @@
             this.brick19.Location = new System.Drawing.Point(82, 91);
             this.brick19.Name = "brick19";
             this.brick19.Size = new System.Drawing.Size(75, 23);
+            this.brick19.Status = PinBall.BrickStatus.Normal;
             this.brick19.TabIndex = 16;
             this.brick19.UseVisualStyleBackColor = true;
             // 
@@ -161,6 +170,7 @@
             this.brick20.Location = new System.Drawing.Point(3, 91);
             this.brick20.Name = "brick20";
             this.brick20.Size = new System.Drawing.Size(75, 23);
+            this.brick20.Status = PinBall.BrickStatus.Normal;
             this.brick20.TabIndex = 15;
             this.brick20.UseVisualStyleBackColor = true;
             // 
@@ -169,6 +179,7 @@
             this.brick11.Location = new System.Drawing.Point(319, 62);
             this.brick11.Name = "brick11";
             this.brick11.Size = new System.Drawing.Size(75, 23);
+            this.brick11.Status = PinBall.BrickStatus.Normal;
             this.brick11.TabIndex = 14;
             this.brick11.UseVisualStyleBackColor = true;
             // 
@@ -177,6 +188,7 @@
             this.brick12.Location = new System.Drawing.Point(240, 62);
             this.brick12.Name = "brick12";
             this.brick12.Size = new System.Drawing.Size(75, 23);
+            this.brick12.Status = PinBall.BrickStatus.Normal;
             this.brick12.TabIndex = 13;
             this.brick12.UseVisualStyleBackColor = true;
             // 
@@ -185,6 +197,7 @@
             this.brick13.Location = new System.Drawing.Point(161, 62);
             this.brick13.Name = "brick13";
             this.brick13.Size = new System.Drawing.Size(75, 23);
+            this.brick13.Status = PinBall.BrickStatus.Normal;
             this.brick13.TabIndex = 12;
             this.brick13.UseVisualStyleBackColor = true;
             // 
@@ -193,6 +206,7 @@
             this.brick14.Location = new System.Drawing.Point(82, 62);
             this.brick14.Name = "brick14";
             this.brick14.Size = new System.Drawing.Size(75, 23);
+            this.brick14.Status = PinBall.BrickStatus.Normal;
             this.brick14.TabIndex = 11;
             this.brick14.UseVisualStyleBackColor = true;
             // 
@@ -201,6 +215,7 @@
             this.brick15.Location = new System.Drawing.Point(3, 62);
             this.brick15.Name = "brick15";
             this.brick15.Size = new System.Drawing.Size(75, 23);
+            this.brick15.Status = PinBall.BrickStatus.Normal;
             this.brick15.TabIndex = 10;
             this.brick15.UseVisualStyleBackColor = true;
             // 
@@ -209,6 +224,7 @@
             this.brick5.Location = new System.Drawing.Point(319, 33);
             this.brick5.Name = "brick5";
             this.brick5.Size = new System.Drawing.Size(75, 23);
+            this.brick5.Status = PinBall.BrickStatus.Normal;
             this.brick5.TabIndex = 9;
             this.brick5.UseVisualStyleBackColor = true;
             // 
@@ -217,6 +233,7 @@
             this.brick7.Location = new System.Drawing.Point(240, 33);
             this.brick7.Name = "brick7";
             this.brick7.Size = new System.Drawing.Size(75, 23);
+            this.brick7.Status = PinBall.BrickStatus.Normal;
             this.brick7.TabIndex = 8;
             this.brick7.UseVisualStyleBackColor = true;
             // 
@@ -225,6 +242,7 @@
             this.brick8.Location = new System.Drawing.Point(161, 33);
             this.brick8.Name = "brick8";
             this.brick8.Size = new System.Drawing.Size(75, 23);
+            this.brick8.Status = PinBall.BrickStatus.Normal;
             this.brick8.TabIndex = 7;
             this.brick8.UseVisualStyleBackColor = true;
             // 
@@ -233,6 +251,7 @@
             this.brick9.Location = new System.Drawing.Point(82, 33);
             this.brick9.Name = "brick9";
             this.brick9.Size = new System.Drawing.Size(75, 23);
+            this.brick9.Status = PinBall.BrickStatus.Normal;
             this.brick9.TabIndex = 6;
             this.brick9.UseVisualStyleBackColor = true;
             // 
@@ -241,6 +260,7 @@
             this.brick10.Location = new System.Drawing.Point(3, 33);
             this.brick10.Name = "brick10";
             this.brick10.Size = new System.Drawing.Size(75, 23);
+            this.brick10.Status = PinBall.BrickStatus.Normal;
             this.brick10.TabIndex = 5;
             this.brick10.UseVisualStyleBackColor = true;
             // 
@@ -249,6 +269,7 @@
             this.brick6.Location = new System.Drawing.Point(319, 4);
             this.brick6.Name = "brick6";
             this.brick6.Size = new System.Drawing.Size(75, 23);
+            this.brick6.Status = PinBall.BrickStatus.Normal;
             this.brick6.TabIndex = 4;
             this.brick6.UseVisualStyleBackColor = true;
             // 
@@ -257,6 +278,7 @@
             this.brick3.Location = new System.Drawing.Point(240, 4);
             this.brick3.Name = "brick3";
             this.brick3.Size = new System.Drawing.Size(75, 23);
+            this.brick3.Status = PinBall.BrickStatus.Normal;
             this.brick3.TabIndex = 3;
             this.brick3.UseVisualStyleBackColor = true;
             // 
@@ -265,6 +287,7 @@
             this.brick4.Location = new System.Drawing.Point(161, 4);
             this.brick4.Name = "brick4";
             this.brick4.Size = new System.Drawing.Size(75, 23);
+            this.brick4.Status = PinBall.BrickStatus.Normal;
             this.brick4.TabIndex = 2;
             this.brick4.UseVisualStyleBackColor = true;
             // 
@@ -273,6 +296,7 @@
             this.brick2.Location = new System.Drawing.Point(82, 4);
             this.brick2.Name = "brick2";
             this.brick2.Size = new System.Drawing.Size(75, 23);
+            this.brick2.Status = PinBall.BrickStatus.Normal;
             this.brick2.TabIndex = 1;
             this.brick2.UseVisualStyleBackColor = true;
             // 
@@ -281,6 +305,7 @@
             this.brick1.Location = new System.Drawing.Point(3, 4);
             this.brick1.Name = "brick1";
             this.brick1.Size = new System.Drawing.Size(75, 23);
+            this.brick1.Status = PinBall.BrickStatus.Normal;
             this.brick1.TabIndex = 0;
             this.brick1.UseVisualStyleBackColor = true;
             // 
@@ -316,9 +341,11 @@
             this.Controls.Add(this.brick4);
             this.Controls.Add(this.brick2);
             this.Controls.Add(this.brick1);
+            this.KeyPreview = true;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PinBall V1.0";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

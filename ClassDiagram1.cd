@@ -11,7 +11,7 @@
   <Class Name="PinBall.Bat" Collapsed="true">
     <Position X="3.25" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAgBAAAAAAAAAAA=</HashCode>
       <FileName>Bat.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
@@ -29,6 +29,22 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PinBall.Bullet" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <AssociationLine Name="State" Type="PinBall.BulletState">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.933" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAABAAAAAA=</HashCode>
+      <FileName>Bullet.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="State" />
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
@@ -58,6 +74,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAAACACAAAAAA=</HashCode>
       <FileName>BrickStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PinBall.BulletState">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAAAAAA=</HashCode>
+      <FileName>BulletState.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="微軟正黑體" Size="9" />
